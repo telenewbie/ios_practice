@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:FirstSwiftApp"
+      name = "FirstSwiftApp">
+      <FileRef
+         location = "group:FirstSwiftApp.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:3rd"
+         name = "3rd">
+         <Group
+            location = "group:include"
+            name = "include">
+            <Group
+               location = "group:speex"
+               name = "speex">
+            </Group>
+         </Group>
+         <Group
+            location = "group:lib"
+            name = "lib">
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:ReadMe.md">
+      </FileRef>
+      <Group
+         location = "group:FirstSwiftApp"
+         name = "FirstSwiftApp">
+         <FileRef
+            location = "group:ViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:user2.imageset"
+               name = "user2.imageset">
+               <FileRef
+                  location = "group:user2@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:user2@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:user2.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:user3.imageset"
+               name = "user3.imageset">
+               <FileRef
+                  location = "group:user3.pdf">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <Group
+               location = "group:LaunchImage.launchimage"
+               name = "LaunchImage.launchimage">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:user1.imageset"
+               name = "user1.imageset">
+               <FileRef
+                  location = "group:user1.pdf">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:main.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:SceneDelegate.swift">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:ProcessIOS"
+      name = "ProcessIOS">
+      <FileRef
+         location = "group:ProcessIOS.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:Pods"
+         name = "Pods">
+         <Group
+            location = "group:RxCocoa"
+            name = "RxCocoa">
+            <Group
+               location = "group:RxCocoa"
+               name = "RxCocoa">
+               <Group
+                  location = "group:macOS"
+                  name = "macOS">
+                  <FileRef
+                     location = "group:NSView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSButton+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSTextView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSTextField+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSControl+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSSlider+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSImageView+Rx.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Traits"
+                  name = "Traits">
+                  <FileRef
+                     location = "group:ControlEvent.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ControlProperty.swift">
+                  </FileRef>
+                  <Group
+                     location = "group:Driver"
+                     name = "Driver">
+                     <FileRef
+                        location = "group:Driver+Subscription.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:BehaviorRelay+Driver.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ObservableConvertibleType+Driver.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Driver.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ControlEvent+Driver.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ControlProperty+Driver.swift">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:SharedSequence"
+                     name = "SharedSequence">
+                     <FileRef
+                        location = "group:SharedSequence.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SharedSequence+Operators+arity.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SchedulerType+SharedSequence.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SharedSequence+Operators.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ObservableConvertibleType+SharedSequence.swift">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Signal"
+                     name = "Signal">
+                     <FileRef
+                        location = "group:ObservableConvertibleType+Signal.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:PublishRelay+Signal.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Signal+Subscription.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ControlEvent+Signal.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Signal.swift">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:Runtime"
+                  name = "Runtime">
+                  <FileRef
+                     location = "group:_RXDelegateProxy.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:_RXObjCRuntime.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:_RX.m">
+                  </FileRef>
+                  <Group
+                     location = "group:include"
+                     name = "include">
+                     <FileRef
+                        location = "group:_RXKVOObserver.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:_RXObjCRuntime.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:_RXDelegateProxy.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:_RX.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxCocoaRuntime.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:_RXKVOObserver.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Foundation"
+                  name = "Foundation">
+                  <FileRef
+                     location = "group:NSObject+Rx+KVORepresentable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Logging.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:KVORepresentable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSObject+Rx+RawRepresentable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NotificationCenter+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:KVORepresentable+CoreGraphics.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:KVORepresentable+Swift.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSObject+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:URLSession+Rx.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:RxCocoa.h">
+               </FileRef>
+               <Group
+                  location = "group:iOS"
+                  name = "iOS">
+                  <Group
+                     location = "group:DataSources"
+                     name = "DataSources">
+                     <FileRef
+                        location = "group:RxPickerViewAdapter.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxCollectionViewReactiveArrayDataSource.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxTableViewReactiveArrayDataSource.swift">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:UIDatePicker+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIScrollView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIApplication+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:WKWebView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UISegmentedControl+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UITextView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIRefreshControl+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIImageView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UILabel+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UITabBarItem+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSTextStorage+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIProgressView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UITabBarController+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UITextField+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UISearchBar+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIAlertAction+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UISlider+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIPickerView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIButton+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UISearchController+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UITabBar+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UISwitch+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIPageControl+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIViewController+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UICollectionView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIActivityIndicatorView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UITableView+Rx.swift">
+                  </FileRef>
+                  <Group
+                     location = "group:Proxies"
+                     name = "Proxies">
+                     <FileRef
+                        location = "group:RxWKNavigationDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxTableViewDataSourcePrefetchingProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxPickerViewDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxTableViewDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxNavigationControllerDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxSearchControllerDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxTabBarControllerDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxCollectionViewDataSourcePrefetchingProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxCollectionViewDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxScrollViewDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxPickerViewDataSourceProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxTableViewDataSourceProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxSearchBarDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxCollectionViewDataSourceProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxTextViewDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxTextStorageDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxTabBarDelegateProxy.swift">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Events"
+                     name = "Events">
+                     <FileRef
+                        location = "group:ItemEvents.swift">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:UIGestureRecognizer+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIStepper+Rx.swift">
+                  </FileRef>
+                  <Group
+                     location = "group:Protocols"
+                     name = "Protocols">
+                     <FileRef
+                        location = "group:RxPickerViewDataSourceType.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxCollectionViewDataSourceType.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxTableViewDataSourceType.swift">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:UINavigationController+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIControl+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIBarButtonItem+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UINavigationItem+Rx.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Common"
+                  name = "Common">
+                  <FileRef
+                     location = "group:KeyPathBinder.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSLayoutConstraint+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DelegateProxy.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RxCocoaObjCRuntimeError+Extensions.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Binder.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TextInput.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SectionedViewDataSourceType.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ControlTarget.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Observable+Bind.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RxTarget.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DelegateProxyType.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Deprecated.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RxCocoa.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:LICENSE.md">
+            </FileRef>
+            <Group
+               location = "group:Platform"
+               name = "Platform">
+               <FileRef
+                  location = "group:Platform.Darwin.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DispatchQueue+Extensions.swift">
+               </FileRef>
+               <Group
+                  location = "group:DataStructures"
+                  name = "DataStructures">
+                  <FileRef
+                     location = "group:Bag.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PriorityQueue.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Queue.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:InfiniteSequence.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Platform.Linux.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RecursiveLock.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Pods.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:RxSwift"
+            name = "RxSwift">
+            <FileRef
+               location = "group:LICENSE.md">
+            </FileRef>
+            <Group
+               location = "group:RxSwift"
+               name = "RxSwift">
+               <FileRef
+                  location = "group:Cancelable.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:GroupedObservable.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RxMutableBox.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Event.swift">
+               </FileRef>
+               <Group
+                  location = "group:Traits"
+                  name = "Traits">
+                  <FileRef
+                     location = "group:Completable+AndThen.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Completable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Single.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PrimitiveSequence.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Maybe.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ObservableType+PrimitiveSequence.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PrimitiveSequence+Zip+arity.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:AnyObserver.swift">
+               </FileRef>
+               <Group
+                  location = "group:Disposables"
+                  name = "Disposables">
+                  <FileRef
+                     location = "group:DisposeBase.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DisposeBag.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ScheduledDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NopDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SubscriptionDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RefCountDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CompositeDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SingleAssignmentDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SerialDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:BinaryDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AnonymousDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:BooleanDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Disposables.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Observables"
+                  name = "Observables">
+                  <FileRef
+                     location = "group:AsMaybe.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Timeout.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Never.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RetryWhen.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Do.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Deferred.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Buffer.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SubscribeOn.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DefaultIfEmpty.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Using.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Delay.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Producer.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GroupBy.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Concat.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Take.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TakeWhile.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TakeLast.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Error.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CombineLatest.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Sample.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AsSingle.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Empty.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Enumerated.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DistinctUntilChanged.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:First.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Timer.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AddRef.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Sequence.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Sink.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Throttle.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Range.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CompactMap.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:WithLatestFrom.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ObserveOn.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CombineLatest+Collection.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Multicast.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SkipWhile.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DelaySubscription.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Repeat.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ToArray.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TakeUntil.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Switch.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Window.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Debounce.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Dematerialize.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Zip+Collection.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Catch.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Filter.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Amb.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Reduce.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CombineLatest+arity.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Zip.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Debug.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Merge.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Skip.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Map.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SkipUntil.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:StartWith.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Just.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Optional.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Generate.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ShareReplayScope.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Scan.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Zip+arity.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SwitchIfEmpty.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ElementAt.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Create.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Materialize.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SingleAsync.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Disposable.swift">
+               </FileRef>
+               <Group
+                  location = "group:SwiftSupport"
+                  name = "SwiftSupport">
+                  <FileRef
+                     location = "group:SwiftSupport.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:ObservableType+Extensions.swift">
+               </FileRef>
+               <Group
+                  location = "group:Extensions"
+                  name = "Extensions">
+                  <FileRef
+                     location = "group:Bag+Rx.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:ObserverType.swift">
+               </FileRef>
+               <Group
+                  location = "group:Concurrency"
+                  name = "Concurrency">
+                  <FileRef
+                     location = "group:LockOwnerType.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SynchronizedDisposeType.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SynchronizedOnType.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Lock.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AsyncLock.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SynchronizedUnsubscribeType.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Reactive.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Date+Dispatch.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Deprecated.swift">
+               </FileRef>
+               <Group
+                  location = "group:Subjects"
+                  name = "Subjects">
+                  <FileRef
+                     location = "group:SubjectType.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:BehaviorSubject.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AsyncSubject.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ReplaySubject.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PublishSubject.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:ObservableConvertibleType.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Observable.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:SchedulerType.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConnectableObservableType.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ObservableType.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Errors.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Rx.swift">
+               </FileRef>
+               <Group
+                  location = "group:Observers"
+                  name = "Observers">
+                  <FileRef
+                     location = "group:ObserverBase.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TailRecursiveSink.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AnonymousObserver.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Schedulers"
+                  name = "Schedulers">
+                  <FileRef
+                     location = "group:RecursiveScheduler.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:OperationQueueScheduler.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:VirtualTimeScheduler.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SchedulerServices+Emulation.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CurrentThreadScheduler.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MainScheduler.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ConcurrentDispatchQueueScheduler.swift">
+                  </FileRef>
+                  <Group
+                     location = "group:Internal"
+                     name = "Internal">
+                     <FileRef
+                        location = "group:ScheduledItem.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:InvocableType.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:InvocableScheduledItem.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DispatchQueueConfiguration.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ScheduledItemType.swift">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:ConcurrentMainScheduler.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SerialDispatchQueueScheduler.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HistoricalScheduler.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:VirtualTimeConverterType.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HistoricalSchedulerTimeConverter.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:ImmediateSchedulerType.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Platform"
+               name = "Platform">
+               <FileRef
+                  location = "group:Platform.Darwin.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DispatchQueue+Extensions.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:AtomicInt.swift">
+               </FileRef>
+               <Group
+                  location = "group:DataStructures"
+                  name = "DataStructures">
+                  <FileRef
+                     location = "group:Bag.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PriorityQueue.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Queue.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:InfiniteSequence.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Platform.Linux.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RecursiveLock.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Target Support Files"
+            name = "Target Support Files">
+            <Group
+               location = "group:RxCocoa"
+               name = "RxCocoa">
+               <FileRef
+                  location = "group:RxCocoa-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RxCocoa.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:RxCocoa-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:RxCocoa-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:RxCocoa.release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:RxCocoa-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:RxCocoa.modulemap">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Pods-ProcessIOS"
+               name = "Pods-ProcessIOS">
+               <FileRef
+                  location = "group:Pods-ProcessIOS.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-ProcessIOS.release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-ProcessIOS-frameworks-Debug-input-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-ProcessIOS-frameworks.sh">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-ProcessIOS-acknowledgements.markdown">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-ProcessIOS-frameworks-Release-output-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-ProcessIOS-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-ProcessIOS.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-ProcessIOS-frameworks-Debug-output-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-ProcessIOS-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-ProcessIOS-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-ProcessIOS-acknowledgements.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-ProcessIOS-frameworks-Release-input-files.xcfilelist">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:RxSwift"
+               name = "RxSwift">
+               <FileRef
+                  location = "group:RxSwift-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:RxSwift-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:RxSwift.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:RxSwift-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RxSwift.release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:RxSwift-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:RxSwift.modulemap">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:RxRelay"
+               name = "RxRelay">
+               <FileRef
+                  location = "group:RxRelay.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:RxRelay-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:RxRelay.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:RxRelay-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RxRelay-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:RxRelay.release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:RxRelay-Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Manifest.lock">
+         </FileRef>
+         <Group
+            location = "group:RxRelay"
+            name = "RxRelay">
+            <FileRef
+               location = "group:LICENSE.md">
+            </FileRef>
+            <Group
+               location = "group:RxRelay"
+               name = "RxRelay">
+               <FileRef
+                  location = "group:PublishRelay.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Observable+Bind.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Utils.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:BehaviorRelay.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Local Podspecs"
+            name = "Local Podspecs">
+         </Group>
+         <Group
+            location = "group:Headers"
+            name = "Headers">
+         </Group>
+      </Group>
+      <Group
+         location = "group:ProcessIOS"
+         name = "ProcessIOS">
+         <FileRef
+            location = "group:ViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:BlockTest.h">
+         </FileRef>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ProcessIOS-Bridging-Header.h">
+         </FileRef>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <Group
+            location = "group:c"
+            name = "c">
+            <FileRef
+               location = "group:fork_c.c">
+            </FileRef>
+            <FileRef
+               location = "group:fork_c.h">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:SceneDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BlockTest.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:ProcessIOS.xcworkspace">
+      </FileRef>
+      <FileRef
+         location = "group:Podfile">
+      </FileRef>
+      <FileRef
+         location = "group:Podfile.lock">
+      </FileRef>
+      <FileRef
+         location = "group:ReadMe.md">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:OCExceptionDemo"
+      name = "OCExceptionDemo">
+      <FileRef
+         location = "group:OCExceptionDemo.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:OCExceptionDemo"
+         name = "OCExceptionDemo">
+         <FileRef
+            location = "group:AppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:UncaughtExceptionHandler.h">
+         </FileRef>
+         <FileRef
+            location = "group:SignalHandler.m">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:exception_mod0.h">
+         </FileRef>
+         <FileRef
+            location = "group:ViewController.m">
+         </FileRef>
+         <FileRef
+            location = "group:SceneDelegate.m">
+         </FileRef>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:UncaughtExceptionHandler.m">
+         </FileRef>
+         <FileRef
+            location = "group:AppDelegate.m">
+         </FileRef>
+         <FileRef
+            location = "group:SignalHandler.h">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:ViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:SceneDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:exception_mod0.c">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:ReadMe.md">
+      </FileRef>
+   </Group>
+</Workspace>
