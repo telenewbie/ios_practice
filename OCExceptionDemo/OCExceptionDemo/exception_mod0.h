@@ -12,6 +12,6 @@
 #include <stdio.h>
 
 
-float test_mode(int i,int mod);
+float test_mode(const char * path,int i,int mod);
 
 #endif /* exception_mod0_h */

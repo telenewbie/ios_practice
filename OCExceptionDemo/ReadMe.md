@@ -110,3 +110,4 @@ HelloObjectCApp(3280,0x10bf37dc0) malloc: *** set a breakpoint in malloc_error_b
 
 
 2.  我的疑问：如何查看保存在 文件里面的crash，模拟器上，手机上的文件管理器好像没有入口呢
+ 入口就在： `/Users/$USER_NAME/Library/Developer/CoreSimulator/Devices/$ID` 其中 USERNAME 为 用户名 ID为 打开XCode ` Window -> Devices and simulators ->iphone 11 pro max->$ID` 就在这里可以看到 

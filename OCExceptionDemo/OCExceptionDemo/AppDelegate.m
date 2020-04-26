@@ -43,21 +43,31 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    InstallSignalHandler();
+//    InstallSignalHandler();
     InstallUncaughtExceptionHandler();
     
     //除 0 异常 不会崩溃
     int a = 1/0;
     
     NSLog(@"hello:::::%d",a);
-//    test_mode(1, 0);
+//        路径
+    
+    NSString * _libPath  = NSHomeDirectory();
+    //NSString * _libPath  = [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:@"Sig_CCrash"];
+    
+       NSDate* dat = [NSDate dateWithTimeIntervalSinceNow:0];
+       NSTimeInterval a1=[dat timeIntervalSince1970];
+       NSString *timeString = [NSString stringWithFormat:@"%f", a1];
+       
+    NSString * savePath = [_libPath stringByAppendingFormat:@"/hello/error%@.log",timeString];
+    test_mode([savePath UTF8String],1, 0);
     //数组越界
     //// 定义数组
 //    NSArray* arr = [NSArray arrayWithObjects:@"123", nil];
 //    NSLog(@"count:%lu",(unsigned long)[arr count]);
 //    NSLog(@"index2:%@",[arr objectAtIndex:1]);
     
-        [self exceptionHandlerTest1];
+//        [self exceptionHandlerTest1];
     
 //        [self exceptionHandlerTest2];
 
